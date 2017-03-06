@@ -1,0 +1,7 @@
+boltons==17.1.0
+gevent==1.2.1
+mongoengine==0.11.0
+pymongo==3.4.0
+scapy-python3==0.20
+tld==0.7.7
+bottle==0.12.13
