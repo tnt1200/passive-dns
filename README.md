@@ -1,12 +1,16 @@
 # passive-dns
 
 ## TL;DR
-passive_dns.py
-代码来自:
-利用scapy 造了一个Passive DNS Collector 工具——pdns_sniff
-作者：Komi
-https://github.com/coffeehb/tools/pdns_sniff
 
+    passive_dns.py
+    代码来自:
+    利用scapy 造了一个Passive DNS Collector 工具——pdns_sniff
+    作者：Komi
+    https://github.com/coffeehb/tools/tree/master/pdns_sniff
+
+    数据库存储改为MongoDB，运行于Python3
+
+    运行界面：
 ![image](https://github.com/tnt1200/passive-dns/raw/master/img/web.png)
 
 ## 安装
@@ -31,6 +35,7 @@ pip3 install -r requirement.txt
 ```
 
 ## 使用
+
 默认监听en0网卡，使用-i 指定网卡
 ```
 python3 passive_dns.py -i en0
